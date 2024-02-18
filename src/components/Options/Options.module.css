@@ -1,0 +1,9 @@
+.optionsBtn {
+    border: 1px solid grey;
+    background-color: aliceblue;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.optionsBtn:hover {
+    background-color: azure;
+}
