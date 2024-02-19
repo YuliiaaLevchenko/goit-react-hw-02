@@ -9,7 +9,7 @@ import Notification from "../Notification/Notification";
 const initialState = { good: 0, neutral: 0, bad: 0 };
 
 const getInitialFeedback = () => {
-  const savedFeedback = window.localStorage.getItem('feedback');
+  const savedFeedback = window.localStorage.getItem('saved-feedback');
   return savedFeedback !== null ? JSON.parse(savedFeedback) : initialState;
 };
 
